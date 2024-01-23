@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://conceitoideal.com.br/wp-content/uploads/2013/07/overpower-centro-automotivo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.container {
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav > .logo {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 10px 20px;
+}
+
+main > h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+}
