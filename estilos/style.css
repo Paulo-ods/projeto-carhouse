@@ -48,7 +48,15 @@ nav > ul > li > a {
 }
 
 main > h1 {
-    text-align: center;
     margin-top: 150px;
     font-size: 25px;
+    color: whitesmoke;
+}
+
+.botao {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
