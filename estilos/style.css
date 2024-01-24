@@ -58,8 +58,9 @@ nav > ul > li > a:hover {
     background-color: darkred;
     border: 2px solid rgb(70, 2, 2);
     transform: translate(-3px, 3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    box-shadow: 1px 0px 15px rgb(80 3 3 / 64%);
     transition: transform 0.4s, border 0.8s;
+    -webkit-transform: translate3d(0px, -7px, 0px);
 }
 
 main > h1 {
