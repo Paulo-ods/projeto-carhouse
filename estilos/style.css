@@ -51,8 +51,7 @@ nav > ul > li > a {
     padding: 10px 20px;
     font-size: 1.2em;
     border-radius: 30px;
-    /*transform: translate(-3px, 3px);
-    transition: transform 0.4s, border 0.8s*/
+    transition: 0.5s;
 }
 
 nav > ul > li > a:hover {
@@ -77,4 +76,8 @@ main > h1 {
     background-color: darkred;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.botao:hover {
+    background-color: rgb(73, 4, 4);
 }
