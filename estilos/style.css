@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Mukta:wght@700&display=swap');
 
+/*:root {
+    --cor1: ;
+    --cor2: ;
+    --cor3: ;
+    --cor4: ;
+    --fonte1: ;
+    --fonte2: ;
+    --fonte3: ;
+}*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -43,24 +53,24 @@ nav > ul {
 }
 
 nav > ul > li {
-    display: inline-block;
+    display: inline-flex;
     font-family: 'Mukta';
 }
 
 nav > ul > li > a {
     padding: 10px 20px;
     font-size: 1.2em;
+    letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
+    border: none;
 }
 
 nav > ul > li > a:hover {
     background-color: darkred;
-    border: 2px solid rgb(70, 2, 2);
     transform: translate(-3px, 3px);
     box-shadow: 1px 0px 15px rgb(80 3 3 / 64%);
-    transition: transform 0.4s, border 0.8s;
-    -webkit-transform: translate3d(0px, -7px, 0px);
+    transition: transform 0.4s, border 0.8s rgb(70, 2, 2) ;
 }
 
 main > h1 {
@@ -73,7 +83,7 @@ main > h1 {
 .botao {
     margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
+    display: inline-flex;
     background-color: darkred;
     padding: 10px 20px;
     border-radius: 20px;
@@ -81,4 +91,6 @@ main > h1 {
 
 .botao:hover {
     background-color: rgb(73, 4, 4);
+    transform: translate(-3px, 3px);
+    transition: transform 0.4s;
 }
