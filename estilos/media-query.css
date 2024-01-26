@@ -23,6 +23,10 @@
         font-size: 0.8em;
     }
 
+    nav > ul > li > a {
+        padding: 5px 10px;
+    }
+
     main > h1 {
         margin-top: 90%;
         font-size: 1.5em;
@@ -36,11 +40,24 @@
     }
 
     body {
-        width: 100vw;
-        height: 100vh;
         background-image: url(https://conceitoideal.com.br/wp-content/uploads/2013/07/overpower-centro-automotivo.jpg);
         background-size: cover;
-        background-position: center top;
+        background-position: center right;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    nav > .logo {
+        font-size: 3em;
+    }
+
+    nav> ul > li > a {
+        padding: 10px 12px;
+    }
+
+    main > h1 {
+        margin-top: 80%;
+        font-size: 1.8em;
     }
 
 }
