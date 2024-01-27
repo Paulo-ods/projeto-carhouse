@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     padding: 3%;
     margin: 0 auto;
@@ -15,6 +19,11 @@ nav > .logo {
     color: whitesmoke;
     font-weight: bold;
     cursor: pointer;
+}
+
+span#burguer {
+    text-align: right;
+    display: block;
 }
 
 nav {
