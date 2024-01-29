@@ -2,11 +2,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Mukta:wght@700&display=swap');
 
+@font-face {
+    font-family: 'fonte1';
+    src: url(../fontes/docktrin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte2';
+    src: url(../fontes/RioGrande.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte3';
+    src: url(../fontes/SHADSER.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte4';
+    src: url(../fontes/WOODCUT.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*:root {
-    --cor1: ;
-    --cor2: ;
-    --cor3: ;
-    --cor4: ;
+    --cor1: #F2B705;
+    --cor2: #84321A;
+    --cor3: #732813;
+    --cor4: #631805;
+    --cor5: #400601;
     --fonte1: ;
     --fonte2: ;
     --fonte3: ;
@@ -31,10 +54,14 @@ body {
 }
 
 nav > .logo {
-    font-size: 3em;
+    font-size: 5em;
     color: whitesmoke;
     font-weight: bold;
     cursor: pointer;
+}
+
+nav > .logo > span > a {
+    font-family: 'fonte2';
 }
 
 a {
@@ -54,12 +81,13 @@ nav > ul {
 
 nav > ul > li {
     display: inline-flex;
-    font-family: 'Mukta';
 }
 
 nav > ul > li > a {
     padding: 10px 20px;
     font-size: 1.2em;
+    font-family: fonte1;
+    font-style: italic;
     letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
@@ -76,13 +104,15 @@ nav > ul > li > a:hover {
 main > h1 {
     margin-top: 25%;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'fonte1', Courier, monospace;
+    letter-spacing: 3px;
     color: whitesmoke;
 }
 
 .botao {
     margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
     display: inline-flex;
     background-color: darkred;
     padding: 10px 20px;
