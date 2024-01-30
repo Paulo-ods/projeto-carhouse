@@ -124,3 +124,8 @@ main > h1 {
     transform: translate(-3px, 3px);
     transition: transform 0.4s;
 }
+
+main > section > article {
+    margin-top: 250px;
+    background-color: lightgray;
+}
