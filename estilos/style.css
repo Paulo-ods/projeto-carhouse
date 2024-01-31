@@ -24,16 +24,13 @@
     font-style: normal;
 }
 
-/*:root {
+:root {
     --cor1: #F2B705;
-    --cor2: #84321A;
-    --cor3: #732813;
-    --cor4: #631805;
+    --cor2: #A66D03;
+    --cor3: #591202;
+    --cor4: #8C2D18;
     --cor5: #400601;
-    --fonte1: ;
-    --fonte2: ;
-    --fonte3: ;
-}*/
+}
 
 * {
     margin: 0px;
@@ -51,7 +48,7 @@ body {
 
 .container {
     padding: 3%;
-    margin: 10px 0px 0px 0px auto;
+    margin: 10px 0px 0px 0px;
 }
 
 nav > .logo {
@@ -129,27 +126,34 @@ main > h1 {
 
 div.mensagem {
     position: relative;
-    background-color: lightgray;
     margin-top: 250px;
 }
 
 main > div > section {
     margin-top: 250px;
-    padding: 3%;
+    /*padding: 3%;*/
 }
 
 main > div > section > article {
-    padding-top: 30px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, #1C0F09 0%, #501e0a 50%, #1C0F09 100%);
+    color: #A66D03;
 }
 
 main > div > section > article > h2 {
     padding: 5px;
     margin-bottom: 5px;
-    font-family: 'fonte3';
+    font-family: 'fonte1';
+    font-size: 2em;
     text-align: center;
+    color: #F2B705;
 }
 
 .best {
-    margin-bottom: 20px;
+    margin-bottom: -2px;
+    padding: 3%;
     text-align: justify;
+    font-size: 1em;
+    font-family: 'fonte1';
+    font-weight: normal;
 }
