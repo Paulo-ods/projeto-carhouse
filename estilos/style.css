@@ -51,7 +51,7 @@ body {
 
 .container {
     padding: 3%;
-    margin: 0 auto;
+    margin: 10px 0px 0px 0px auto;
 }
 
 nav > .logo {
@@ -138,6 +138,18 @@ main > div > section {
     padding: 3%;
 }
 
-main > div > section > h2 {
+main > div > section > article {
+    padding-top: 30px;
+}
+
+main > div > section > article > h2 {
     padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'fonte3';
+    text-align: center;
+}
+
+.best {
+    margin-bottom: 20px;
+    text-align: justify;
 }
