@@ -86,6 +86,7 @@ nav > ul > li > a {
     font-size: 1.2em;
     font-family: fonte1;
     font-style: italic;
+    color: #F2B705;
     letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
@@ -105,7 +106,7 @@ main > h1 {
     padding: 0% 3% 0% 3%;
     font-family: 'fonte1', Courier, monospace;
     letter-spacing: 3px;
-    color: whitesmoke;
+    color: #F2B705;
 }
 
 .botao {
@@ -136,7 +137,7 @@ main > div > section {
 
 main > div > section > article {
     padding-top: 40px;
-    background-image: linear-gradient(to bottom, #1C0F09 0%, #501e0a 50%, #1C0F09 100%);
+    /*background-image: linear-gradient(to bottom, black 5%, #400601 60%);*/
     color: #A66D03;
 }
 
@@ -156,4 +157,12 @@ main > div > section > article > h2 {
     font-size: 1em;
     font-family: 'fonte1';
     font-weight: normal;
+}
+
+article#gradient {
+    background-image: linear-gradient(to bottom, black 5%, #310501 60%);
+}
+
+article#gradient2 {
+    background-image: linear-gradient(to top, black 5%, #310501 60%);
 }
