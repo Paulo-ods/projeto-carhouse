@@ -62,6 +62,10 @@ nav > .logo > span > a {
     font-family: 'fonte2';
 }
 
+div.pulse {
+    color: var(--cor1);
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -164,5 +168,5 @@ article#gradient {
 }
 
 article#gradient2 {
-    background-image: linear-gradient(to top, black 5%, #310501 60%);
+    background-image: linear-gradient(to top, black 5%, #310501 40%);
 }

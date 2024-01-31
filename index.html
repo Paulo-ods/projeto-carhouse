@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTam()">
     <div class="container">
         <nav>
             <div class="logo">
                  <span><a href="index.html"><img src="img/logotp.png" alt=""></a></span>
             </div>
+            <div class="pulse">
+                <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+            </div>
 
-            <ul>
-                <li><a href="inicio.html">Início</a></li>
+            <ul id="itens">
+                <li><a href="index.html">Início</a></li>
                 <li><a href="lavagem.html">Higienização</a></li>
                 <li><a href="polimentos.html">Polimentos</a></li>
                 <li><a href="contato.html">Contato</a></li>
@@ -53,7 +57,27 @@
                     </article>
                 </section>
             </div>
-        </main>   
+            <section>
+
+            </section>
+        </main>
+        <script>
+            function mudouTam() {
+                if (window.innerWidth >= 992){
+                    itens.style.display = 'block'
+                } else {
+                    itens.style.display = 'none'
+                }
+            }
+    
+            function clickMenu() {
+                if (itens.style.display == 'block'){
+                    itens.style.display = 'none'
+                }else{
+                    itens.style.display = 'block'
+                }
+            }
+        </script>   
     
 </body>
 </html>
