@@ -77,6 +77,10 @@ nav {
     justify-content: space-between;
 }
 
+nav > div > span > a > img {
+    filter: invert(18%) sepia(30%) saturate(134%) hue-rotate(389deg) brightness(100%) contrast(148%);
+}
+
 nav > ul {
     list-style: none;
 }
