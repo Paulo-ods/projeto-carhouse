@@ -94,7 +94,7 @@ nav > ul > li > a {
     font-size: 1.2em;
     font-family: fonte1;
     font-style: italic;
-    color: #F2B705;
+    color: var(--cor2);
     letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
@@ -114,7 +114,7 @@ main > h1 {
     padding: 0% 3% 0% 3%;
     font-family: 'fonte1', Courier, monospace;
     letter-spacing: 3px;
-    color: #F2B705;
+    color: var(--cor2);
 }
 
 .botao {
