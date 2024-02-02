@@ -14,6 +14,10 @@
         background-position: center right;
     }
 
+    #itens {
+        display: none;
+    }
+
     div.container {
         margin-bottom: 427px;
     }
@@ -81,4 +85,10 @@
         letter-spacing: 3px;
     }
 
+}
+
+@media screen and (min-width: 992px){
+    span#burguer{
+        display: none;
+    }
 }

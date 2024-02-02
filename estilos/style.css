@@ -94,7 +94,7 @@ nav > ul > li > a {
     font-size: 1.2em;
     font-family: fonte1;
     font-style: italic;
-    color: var(--cor2);
+    color: var(--cor1);
     letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
@@ -174,3 +174,9 @@ article#gradient {
 article#gradient2 {
     background-image: linear-gradient(to top, black 5%, #310501 40%);
 }
+
+/*#polimento {
+    height: 400px;
+    width: 100vw;
+    background-color: aliceblue;
+}*/
