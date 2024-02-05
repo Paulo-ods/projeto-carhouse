@@ -111,14 +111,32 @@
         letter-spacing: 5px;
     }
 
-    nav > ul > li > a {
-        padding: 10px 12px;
+    .pulse {
+        padding: 3%;
+    }
+
+    span#burguer {
+        font-size: 35px;
+    }
+
+    ul {
+        background-color: #000000bf;
+        height: 85px;
+        padding: 20px;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+
+    ul > li > a {
+        padding: 10px 37px;
+        font-size: 1.3em;
         font-family: fonte1;
         font-style: italic;
+        letter-spacing: 2px;
     }
 
     main > h1 {
-        margin-top: 80%;
+        margin-top: 700px;
         font-size: 1.8em;
         font-family: fonte1;
         letter-spacing: 3px;
@@ -129,5 +147,9 @@
 @media screen and (min-width: 992px){
     span#burguer{
         display: none;
+    }
+
+    img {
+        width: 350px;
     }
 }
