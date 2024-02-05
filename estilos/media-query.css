@@ -129,14 +129,14 @@
 
     ul > li > a {
         padding: 10px 37px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-family: fonte1;
         font-style: italic;
         letter-spacing: 2px;
     }
 
     main > h1 {
-        margin-top: 700px;
+        margin-top: 650px;
         font-size: 1.8em;
         font-family: fonte1;
         letter-spacing: 3px;
@@ -150,6 +150,18 @@
     }
 
     img {
-        width: 350px;
+        width: 300px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: -95px;
+    }
+
+    ul > li > a {
+        font-size: 1.3em;
+        padding-left: 35px;
+        letter-spacing: 2px;
     }
 }
