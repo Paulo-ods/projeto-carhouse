@@ -147,7 +147,6 @@ div.services {
     border: 1px solid black;
     height: 260px;
     text-align: justify;
-    text-overflow: var(--cor2);
 }
 
 div.mensagem {
