@@ -134,6 +134,22 @@ main > h1 {
     transition: transform 0.4s;
 }
 
+div.services {
+    height: auto;
+    width: 100vw;
+    margin-top: 30px;
+    background-color: white;
+    padding: 50px;
+}
+
+.works {
+    padding: 10px;
+    border: 1px solid black;
+    height: 260px;
+    text-align: justify;
+    text-overflow: var(--cor2);
+}
+
 div.mensagem {
     position: relative;
     margin-top: 250px;
