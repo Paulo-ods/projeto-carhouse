@@ -146,15 +146,33 @@ div.services {
     padding: 15px;
     border: 1px solid black;
     height: 260px;
-    text-align: justify;
+    text-align: justify;    
+    margin: 28px 0px;
+}
+
+div#img-lavext {
+    background-image: url(../img/lavagem-ext.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 div#lavagem-ext {
     margin-top: 140px;
 }
 
+div#img-limpint {
+    background-image: url(../img/limp-int.png);
+    background-size: cover;
+    background-position: center right;
+}
+
 div#limpeza-int {
     margin-top: 100px;
+}
+
+div#img-plastico{
+    background-image: url(../img/plastico.jpg);
+    background-size: cover;
 }
 
 div#plastico {
