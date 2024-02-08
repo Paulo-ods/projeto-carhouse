@@ -137,7 +137,7 @@ main > h1 {
 div.services {
     height: auto;
     width: 100vw;
-    margin-top: 30px;
+    margin-top: 130px;
     background-color: white;
     padding: 50px;
 }
@@ -145,13 +145,13 @@ div.services {
 .works {
     padding: 15px;
     border: 1px solid rgba(0, 0, 0, 0.589);
-    height: 260px;
+    height: auto;
     text-align: justify;    
     margin: 28px 0px;
 }
 
 div#img-lavext {
-    height: 148px;
+    height: 150px;
     background-image: url(../img/lavagem-ext.jpg);
     background-size: cover;
     background-position: center center;
@@ -162,7 +162,7 @@ div#lavagem-ext {
 }
 
 div#img-limpint {
-    height: 100px;
+    height: 150px;
     background-image: url(../img/limp-int.png);
     background-size: cover;
     background-position: center right;
@@ -180,6 +180,13 @@ div#img-plastico{
 
 div#plastico {
     margin-top: 8px;
+}
+
+section > div > div > h3 {
+    font-family: fonte1;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 0.6px;
 }
 
 div.mensagem {
