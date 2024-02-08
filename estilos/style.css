@@ -144,39 +144,42 @@ div.services {
 
 .works {
     padding: 15px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.589);
     height: 260px;
     text-align: justify;    
     margin: 28px 0px;
 }
 
 div#img-lavext {
+    height: 148px;
     background-image: url(../img/lavagem-ext.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 div#lavagem-ext {
-    margin-top: 140px;
+    margin-top: 8px;
 }
 
 div#img-limpint {
+    height: 100px;
     background-image: url(../img/limp-int.png);
     background-size: cover;
     background-position: center right;
 }
 
 div#limpeza-int {
-    margin-top: 100px;
+    margin-top: 8px;
 }
 
 div#img-plastico{
+    height: 150px;
     background-image: url(../img/plastico.jpg);
     background-size: cover;
 }
 
 div#plastico {
-    margin-top: 155px;
+    margin-top: 8px;
 }
 
 div.mensagem {
@@ -225,4 +228,13 @@ article#gradient2 {
     height: 400px;
     width: 100vw;
     background-color: aliceblue;
+}
+
+div#teste {
+    
+    background-image: url(../img/lavagem-ext.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    url('wa_images/background.jpg?v=1eal001')
 }*/
