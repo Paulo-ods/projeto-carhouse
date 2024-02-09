@@ -175,8 +175,9 @@
     }
 
     div.services {
-        height: 600px;
+        height: auto;
         display: flex;
+        padding: 70px 50px 70px 50px
     }
 
     div#img-lavext {
@@ -186,16 +187,27 @@
 
     .works {
         width: 387.75px;
+        height: auto;
         margin: 20px;
     }
 
     div#img-limpint {
         height: 250px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    div#img-plastico {
+        height: 250px;
+        margin: -10px 0px 10px 0px;
     }
     
     section > div > div > h3 {
         padding: 20px 0px 20px 0px;
 
+    }
+
+    .text {
+        margin-top: 25px;
     }
 
     
