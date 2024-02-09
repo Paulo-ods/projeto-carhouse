@@ -68,6 +68,18 @@
         font-size: 1.4em;
         letter-spacing: 2px;
     }
+
+    .works {
+        padding: 25px 15px 25px 15px;
+    }
+
+    section > div > div > h3 {
+        margin-bottom: 15px;
+    }
+
+    .text {
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -203,7 +215,6 @@
     
     section > div > div > h3 {
         padding: 20px 0px 20px 0px;
-
     }
 
     .text {
