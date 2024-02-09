@@ -145,7 +145,7 @@ div.services {
 
 .text {
     font-family: fonte1;
-    color: #7e5302;
+    color: var(--cor5);
 }
 
 .works {
