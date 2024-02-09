@@ -173,4 +173,30 @@
         letter-spacing: 2px;
         word-spacing: 5px;
     }
+
+    div.services {
+        height: 600px;
+        display: flex;
+    }
+
+    div#img-lavext {
+        height: 250px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .works {
+        width: 387.75px;
+        margin: 20px;
+    }
+
+    div#img-limpint {
+        height: 250px;
+    }
+    
+    section > div > div > h3 {
+        padding: 20px 0px 20px 0px;
+
+    }
+
+    
 }
