@@ -145,15 +145,16 @@ div.services {
 
 .text {
     font-family: fonte1;
+    color: #7e5302;
 }
 
 .works {
     padding: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.589);
+    border: 1px solid var(--cor5);
     height: auto;
     text-align: justify;    
     margin: 28px 0px;
-    box-shadow: 2px 1px 19px 6px black;
+    box-shadow: 1px 0px 19px 6px var(--cor5);
 }
 
 div#img-lavext {
@@ -193,6 +194,7 @@ section > div > div > h3 {
     font-size: 1.3em;
     text-align: center;
     letter-spacing: 0.6px;
+    color: var(--cor2);
 }
 
 div.mensagem {
