@@ -190,6 +190,11 @@
         height: auto;
         display: flex;
         padding: 70px 50px 70px 50px
+
+    }
+
+    .services {
+        justify-content: center;
     }
 
     div#img-lavext {
@@ -200,7 +205,7 @@
     .works {
         width: 387.75px;
         height: auto;
-        margin: 20px;
+        margin: 60px 20px 60px 20px;
     }
 
     div#img-limpint {
@@ -219,6 +224,15 @@
 
     .text {
         margin-top: 25px;
+    }
+
+    article#gradient2 {
+        padding-top: 70px;
+    }
+
+    .best {
+        padding: 10px;
+        font-size: 1.4em;
     }
 
     
