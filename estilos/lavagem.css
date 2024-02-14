@@ -1,53 +1,192 @@
-@charset 'UTF-8';
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Mukta:wght@700&display=swap');
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(../fontes/docktrin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte2';
+    src: url(../fontes/RioGrande.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte3';
+    src: url(../fontes/SHADSER.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'fonte4';
+    src: url(../fontes/WOODCUT.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor1: #F2B705;
+    --cor2: #A66D03;
+    --cor3: #591202;
+    --cor4: #8C2D18;
+    --cor5: #400601;
+}
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+body {
+    background-image: url(https://conceitoideal.com.br/wp-content/uploads/2013/07/overpower-centro-automotivo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    max-width: 100%;
+    height: 400px;
 }
 
 .container {
     padding: 3%;
-    margin: 0 auto;
-}
-
-span#burguer {
-    text-align: right;
-    display: block;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    justify-content: space-between;
+    margin: 10px 0px 0px 0px;
 }
 
 nav > .logo {
-    font-size: 2em;
+    font-size: 5em;
     color: whitesmoke;
     font-weight: bold;
     cursor: pointer;
 }
 
-nav > ul {
+nav > .logo > span > a {
+    font-family: 'fonte2';
+}
+
+div.pulse {
+    color: var(--cor1);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > div > span > a > img {
+    filter: invert(18%) sepia(30%) saturate(134%) hue-rotate(389deg) brightness(100%) contrast(148%);
+}
+
+ul {
     list-style: none;
 }
 
-nav > ul > li {
-    display: block;
-    font-family: 'Mukta';
-    font-size: 0.8em;
+ul > li {
+    display: inline-flex;
 }
 
-nav > ul > li > a {
-    padding: 5px 10px;
+ul > li > a {
+    padding: 10px 20px;
     font-size: 1.2em;
+    font-family: fonte1;
+    font-style: italic;
+    color: var(--cor1);
     letter-spacing: 0.8px;
     border-radius: 30px;
     transition: 0.5s;
     border: none;
+}
+
+ul > li > a:hover {
+    background-color: darkred;
+    transform: translate(-3px, 3px);
+    box-shadow: 1px 0px 15px rgb(80 3 3 / 64%);
+    transition: transform 0.4s, border 0.8s rgb(70, 2, 2);
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(https://conceitoideal.com.br/wp-content/uploads/2013/07/overpower-centro-automotivo.jpg);
+        background-size: cover;
+        background-position: center right;
+    }
+
+    #itens {
+        display: none;
+    }
+
+    div.container {
+        margin-bottom: 427px;
+        padding: 0px;
+    }
+
+    nav {
+        background-color: #000000bf;
+    }
+
+    nav > .logo {
+        padding-left: 3%;
+    }
+
+    .pulse {
+        padding: 3%;
+    }
+
+    span#burguer {
+        font-size: 30px;
+    }
+
+    ul {
+        background-color: #000000bf;
+        width: 100vw;
+        padding: 30px 10px;
+        border-top: 1px solid white;
+    }
+
+    nav > .logo > span > a {
+        font-family: 'fonte2';
+        letter-spacing: 5px;
+    }
+
+    ul > li {
+        display: block;
+        font-size: 0.8em;
+        padding: 8px;
+    }
+
+    ul > li > a {
+        padding: 5px 10px;
+        font-family: fonte1;
+        letter-spacing: 2px;
+    }
+
+    main > h1 {
+        margin-top: 90%;
+        font-size: 1.4em;
+        letter-spacing: 2px;
+    }
+
+    .works {
+        padding: 25px 15px 25px 15px;
+    }
+
+    section > div > div > h3 {
+        margin-bottom: 15px;
+    }
+
+    .text {
+        margin-top: 15px;
+    }
 }
