@@ -138,6 +138,11 @@
         display: none;
     }
 
+    .container {
+    background-color: #000000bf;
+
+    }
+
     img {
         width: 270px;
     }
