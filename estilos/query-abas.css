@@ -1,5 +1,13 @@
 @charset 'UTF-8';
 
+:root {
+    --cor1: #F2B705;
+    --cor2: #A66D03;
+    --cor3: #591202;
+    --cor4: #8C2D18;
+    --cor5: #400601;
+}
+
 @media screen and (max-width: 768px) {
     * {
         margin: 0px;
@@ -9,8 +17,9 @@
     body {
         width: 100vw;
         height: 100vh;
-        background-size: cover;
-        background-position: center right;
+        background-size: 80% cover;
+        background-position: center;
+        
     }
 
     #itens {
@@ -62,6 +71,16 @@
         padding: 5px 10px;
         font-family: fonte1;
         letter-spacing: 2px;
+    }
+
+    main > div > h1 {
+        letter-spacing: 3px;
+        text-shadow: 1px 1px 1px #A66D03;
+    }
+
+    .best {
+        margin-top: 500px;
+        color: white;
     }
 
 }
