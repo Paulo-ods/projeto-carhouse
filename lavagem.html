@@ -7,56 +7,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="estilos/lavagem.css">
     <link rel="stylesheet" href="estilos/query-abas.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body onresize="mudouTam()">
-    <div class="container">
-        <nav>
-            <div class="logo">
-                 <span><a href="index.html"><img src="img/logotp.png" alt=""></a></span>
-            </div>
-            <div class="pulse">
-                <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-            </div>
-
-
-
-        </nav>
-        <ul id="itens">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="lavagem.html">Higienização</a></li>
-            <li><a href="polimentos.html">Polimentos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </div>
-    <main>
-        <div id="img_fundo">
-            <div class="linha"></div>
-            <h1 class="text">HIGIENIZAÇÃO</h1>
-            <div class="linha"></div>
+    <div id="img_fundo">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                     <span><a href="index.html"><img src="img/logotp.png" alt=""></a></span>
+                </div>
+                <div class="pulse">
+                    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+                </div>
+            </nav>
+            <ul id="itens">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="lavagem.html">Higienização</a></li>
+                <li><a href="polimentos.html">Polimentos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
         </div>
-        <section>
-            <article>
+        <main>
+            <div>
+                <div class="linha" id="line"></div>
+                <h1 class="text">HIGIENIZAÇÃO</h1>
+                <div class="linha"></div>
+            </div>
+    </div>
+        <section class="higieni">
+            <article class="o_que_e">
                 <h2>O que é a higienização automotiva?</h2>
-                <p class="best">A preocupação predominante dos proprietários muitas vezes recai 
+                <p class="text">A preocupação predominante dos proprietários muitas vezes recai 
                 unicamente sobre a estética exterior de seus veículos, relegando a limpeza interna a 
                 um segundo plano, apesar de sua importância crucial na experiência do motorista e dos 
                 passageiros.</p>
-                <p class="best">Detalhes meticulosos não apenas aprimoram a estética, mas também influenciam 
+                <div id="img_higieni">
+                    <img src="img/higienizacao.png" alt="higienizacao">
+                </div>
+                <p class="text">Detalhes meticulosos não apenas aprimoram a estética, mas também influenciam 
                 diretamente a saúde, considerando as ramificações respiratórias e o potencial atrativo 
                 de pragas nocivas.</p>
-                <p class="best">Integrar essa prática à rotina traz benefícios imediatos, proporcionando 
+                <p class="text">Integrar essa prática à rotina traz benefícios imediatos, proporcionando 
                 um ambiente mais agradável e saudável.</p>
             </article>
             <article>
                 <h2>Filtro de Ar</h2>
-                <p class="best">O filtro de ar, essencial para veículos com sistemas de ar quente e 
+                <p class="text">O filtro de ar, essencial para veículos com sistemas de ar quente e 
                 ar-condicionado, requer trocas periódicas conforme as orientações do fabricante. Durante 
                 sua vida útil, acumula-se poeira, impurezas e fungos prejudiciais à saúde. Sua localização 
                 pode ser de difícil acesso no painel, demandando habilidade para removê-lo.</p>
             </article>
             <article>
                 <h2>Painéis e portas</h2>
-                <p class="best">São superfícies que estão sempre em contato com as mãos e outras partes 
+                <p class="text">São superfícies que estão sempre em contato com as mãos e outras partes 
                 do corpo e, por isso, merecem cuidados durante a higienização. O mesmo vale para o câmbio 
                 e o volante, pois também acumulam fungos e bactérias que se alojam e se proliferam para 
                 outras partes. Use um pano úmido com o produto adequado, de maneira suave para não riscar 
@@ -64,11 +67,11 @@
             </article>
             <article>
                 <h2>Bancos e tapetes</h2>
-                <p class="best">Os tapetes acumulam poeira e sujeiras vindas dos calçados dos ocupantes 
+                <p class="text">Os tapetes acumulam poeira e sujeiras vindas dos calçados dos ocupantes 
                 e, como todos sabemos, são grandes fontes de bactérias. Como eles não são tão sensíveis 
                 quanto outras partes, o ideal é tirá-los do veículo, aspirar todo o chão do carro e lavar 
                 os tapetes com uma esponja mais áspera e sabão comum.</p>
-                <p class="best">Com os bancos, é necessário ser mais criterioso, pois eles também acumulam 
+                <p class="text">Com os bancos, é necessário ser mais criterioso, pois eles também acumulam 
                 bactérias e fungos, especialmente por absorverem o suor vindo das costas e pernas. O material 
                 do estofamento também influencia. Como já dito, tenha métodos apropriados caso se trate de 
                 tecido ou couro.</p>
