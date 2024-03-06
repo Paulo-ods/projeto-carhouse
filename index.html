@@ -34,7 +34,7 @@
 
             <section id="trabalhos">
                 <div class="services">
-                    <div class="works">
+                    <div class="works" class="show">
                         <h3>Lavagem Externa</h3>
                         <div id="img-lavext">
 
@@ -44,7 +44,7 @@
                             tratamos cada detalhe com precisão.</p>
                         </div>
                     </div>
-                    <div class="works" >
+                    <div class="works" class="show" >
                         <h3>Limpeza Interna</h3>
                         <div id="img-limpint">
 
@@ -54,7 +54,7 @@
                             Descubra o brilho renovado do seu veículo com o Cowboy.</p>
                         </div>
                     </div>
-                    <div class="works">
+                    <div class="works" class="show">
                         <h3>Tratamento de Plasticos</h3>
                         <div id="img-plastico">
 
@@ -117,7 +117,28 @@
                     itens.style.display = 'block'
                 }
             }
-        </script>   
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var works = document.querySelectorAll('.works');
+                var windowHeight = window.innerHeight;
+            
+                function checkPosition() {
+                    for (var i = 0; i < works.length; i++) {
+                        var positionFromTop = works[i].getBoundingClientRect().top;
+                        if (positionFromTop - windowHeight <= 0) {
+                            works[i].classList.add('show');
+                        }
+                    }
+                }
+            
+                window.addEventListener('scroll', checkPosition);
+                window.addEventListener('resize', checkPosition);
+            
+                checkPosition();
+            });
+        </script>
+           
     
 </body>
 </html>

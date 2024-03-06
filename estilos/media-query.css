@@ -71,6 +71,13 @@
 
     .works {
         padding: 25px 15px 25px 15px;
+        margin: 40px 0px;
+        transition: opacity 1.0s cubic-bezier(0.99, 0.01, 0, 1.01), transform 0.5s ease;
+    }
+
+    .works.show {
+        opacity: 1;
+        transform: translateY(0); 
     }
 
     section > div > div > h3 {
