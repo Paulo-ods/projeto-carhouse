@@ -137,7 +137,7 @@ main > h1 {
 div.services {
     height: auto;
     width: auto;
-    margin-top: 130px;
+    margin-top: 155px;
     padding: 50px;
     background-color: white;
     background-image: url(https://bhprimeautomotiva.com.br/wa_images/background.jpg?v=1eal001);
@@ -196,6 +196,18 @@ div#img-plastico {
 div#plastico {
     margin-top: 8px;
 }
+
+div#img-farol {
+    height: 150px;
+    background-image: url(../img/polimento_farol.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+div#farol {
+    margin-top: 8px;
+}
+
 
 section > div > div > h3 {
     font-family: fonte3;
@@ -265,3 +277,5 @@ div#teste {
 
     url('wa_images/background.jpg?v=1eal001')
 }*/
+
+

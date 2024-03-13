@@ -44,7 +44,7 @@ body {
 }
 
 div#img_fundo {
-    background-image: url(../img/fundoLavagemPq.jpg);
+    background-image: url(../img/lavagem-ext2.jpg);
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,13 +131,13 @@ main > div > h1 {
 }
 
 div#line {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 div#img_higieni {
     background-size: cover;
-    height: 400px;
-    width: 100vw;
+    height: 350px;
+    width: 80vw;
     display: flex;
 }
 
@@ -145,6 +145,7 @@ p.text {
     font-family: fonte1;
     color: var(--cor5);
     padding: 10px;
+    margin: 10px;
     text-align: justify;
 }
 
