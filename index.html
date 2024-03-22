@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
 <body onresize="mudouTam()">
+
     <div class="container">
         <nav>
             <div class="logo">
@@ -17,9 +19,6 @@
             <div class="pulse">
                 <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
             </div>
-
-
-
         </nav>
         <ul id="itens">
             <li><a href="index.html">Início</a></li>
@@ -28,78 +27,108 @@
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </div>  
+
         <main>
             <h1>A Estética Automotiva que você precisa!</h1>
             <a href="#" class="botao">Ver Mais</a>
 
             <section id="trabalhos">
                 <div class="services">
+
                     <div class="works" class="show">
                         <h3>Lavagem Externa</h3>
-                        <div id="img-lavext">
-
-                        </div>
+                            <div id="img-lavext">
+                                <!--Imagem de lavagem externa-->
+                            </div>
                         <div id="lavagem-ext">
                             <p class="text">Lavagem técnica, detalhando a pintura do seu automóvel,
                             tratamos cada detalhe com precisão.</p>
                         </div>
                     </div>
+
                     <div class="works" class="show" >
                         <h3>Limpeza Interna</h3>
-                        <div id="img-limpint">
-
-                        </div>
+                            <div id="img-limpint">
+                                <!--Imagem de limpeza interna-->
+                            </div>
                         <div id="limpeza-int">
                             <p class="text">Limpeza detalhada do interior, priorizando a qualidade. 
                             Descubra o brilho renovado do seu veículo com o Cowboy.</p>
                         </div>
                     </div>
+
                     <div class="works" class="show">
                         <h3>Tratamento de Plasticos</h3>
-                        <div id="img-plastico">
-
-                        </div>
+                            <div id="img-plastico">
+                                <!--Imagem de tratamento de plasticos-->
+                             </div>
                         <div id="plastico">
                             <p class="text">Limpeza e proteção dos plásticos externos, sendo revitalização ou
                             proteção cerâmica.</p>
                         </div>
                     </div>
+
                     <div class="works" class="show">
                         <h3>Polimento de Farol</h3>
-                        <div id="img-farol">
-
-                        </div>
+                            <div id="img-farol">
+                                <!--Imagem de polimento de farol-->
+                            </div>
                         <div id="farol">
                             <p class="text">Lavagem técnica, detalhando a pintura do seu automóvel,
                                 tratamos cada detalhe com precisão.</p>
                         </div>
                     </div>
+
                     <div class="works" class="show">
                         <h3>Chuva Acida</h3>
-                        <div id="img-plastico">
-
-                        </div>
+                            <div id="img-plastico">
+                                <!--Imagem para chuva acida-->
+                            </div>
                         <div id="plastico">
                             <p class="text">Limpeza e proteção dos plásticos externos, sendo revitalização ou
                             proteção cerâmica.</p>
                         </div>
                     </div>
+
                     <div class="works" class="show">
                         <h3>Lavagem de motor</h3>
-                        <div id="img-plastico">
-
-                        </div>
+                            <div id="img-plastico">
+                                <!--Imagem de lavagem de motor-->
+                            </div>
                         <div id="plastico">
                             <p class="text">Limpeza e proteção dos plásticos externos, sendo revitalização ou
                             proteção cerâmica.</p>
                         </div>
                     </div>
+
                 </div>
             </section>
             
-            
+            <section>
+                <article>
+                    <section>
+                        <div>
+                            <p>Venha fazer no melhor de Francisco Beltrão</p>
+                            <h2>Por que fazer no Cowboy Polimentos</h2>
+                        </div>
+                        <div> 
+                            <div class="foto_pq_fazer"> 
+                                <div>
+                                    <h3>Garantia</h3>
+                                    <p>Damos garantia em todos os nossos serviços e garantimos a qualidade</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div>
+                        <p></p>
+                    </div>
+                </article>
+            </section>
+
             <div class="mensagem">
                 <section id="quem-somos">
+
                     <article id="gradient">
                         <h2>QUEM SOMOS</h2>
                         <p class="best">A Estética Cowboy é uma empresa que presta serviços
@@ -112,6 +141,7 @@
                         o preço justo, a qualidade de nossos serviços e
                         do nosso atendimento.</p>
                     </article>
+
                     <article id="gradient2">
                         <h2>VALORES</h2>
                         <p class="best">Nosso objetivo diário é fazer com que todos os veículos e clientes
@@ -122,15 +152,17 @@
                         <p class="best">Além disso, prezamos pelo carinho e a minuciosidade de nossos serviços, 
                         nos carros e barcos dos nossos clientes.</p>
                     </article>
+
                 </section>
             </div>
+
             <section>
                 <article id="polimento">
                     <h2>HIGIENIZAÇÃO</h2>
-
                 </article>
             </section>
         </main>
+
         <script>
             function mudouTam() {
                 if (window.innerWidth >= 992){
@@ -148,6 +180,7 @@
                 }
             }
         </script>
+
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 var works = document.querySelectorAll('.works');
@@ -161,14 +194,11 @@
                         }
                     }
                 }
-            
                 window.addEventListener('scroll', checkPosition);
                 window.addEventListener('resize', checkPosition);
-            
                 checkPosition();
             });
         </script>
-           
-    
+
 </body>
 </html>
