@@ -85,6 +85,12 @@
         transform: translateY(0); 
     }
 
+    div.works.show:hover {
+        box-shadow: 1px 0px 6px 6px var(--cor5);
+        transition: margin 0.5s ease;
+        margin: -10px;
+    }
+
     section > div > div > h3 {
         margin-bottom: 15px;
     }
