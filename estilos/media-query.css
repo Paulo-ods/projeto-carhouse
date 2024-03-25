@@ -101,19 +101,24 @@
     }
 
     section#pq_fazer {
-        background-color: white;
+        /*background-color: white;*/
         text-align: center;
-        margin-top: 50px;
+        /*margin-top: 50px;*/
     }
 
     p#venha_fazer {
         font-size: 20px;
         font-family: 'fonte1';
+        font-style: italic;
     }
 
     h2#pq_fazer_tit {
         font-size: 35px;
         font-family: 'fonte2', Arial, Helvetica, sans-serif;
+    }
+
+    .title_pq_fazer {
+        font-size: 25px;
     }
 }
 

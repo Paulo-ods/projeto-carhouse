@@ -278,4 +278,37 @@ div#teste {
     url('wa_images/background.jpg?v=1eal001')
 }*/
 
+section#pq_fazer {
+    background-image: url(https://bhprimeautomotiva.com.br/wa_images/background.jpg?v=1eal001);
+    text-align: center;
+    /*margin-top: 50px;*/
+}
 
+.box_pq_fazer {
+    border: 1px solid black;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
+    /*background-color: lightgray;*/
+}
+
+p#venha_fazer {
+    font-size: 20px;
+    font-family: 'fonte1';
+    padding: 20px;
+}
+
+h2#pq_fazer_tit {
+    font-size: 35px;
+    font-family: 'fonte2', Arial, Helvetica, sans-serif;
+    color: var(--cor2);
+}
+
+.title_pq_fazer {
+    font-family: 'fonte1', Courier, monospace;
+    color: var(--cor5);
+}
+
+.descricao {
+    font-family: 'fonte1', Courier, monospace;
+    color: var(--cor5);
+}
