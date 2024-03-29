@@ -279,13 +279,14 @@ div#teste {
 }*/
 
 section#pq_fazer {
+    background-image: url(https://bhprimeautomotiva.com.br/wa_images/background.jpg?v=1eal001);
     background-color: #400601;
     text-align: center;
     /*margin-top: 50px;*/
 }
 
 .box_pq_fazer {
-    border: 1px solid black;
+
     margin: 20px 0px 20px 0px;
     padding: 10px 0px 10px 0px;
     background-size: cover;
@@ -318,8 +319,12 @@ h2#pq_fazer_tit {
 .especializada {
     background-image: url(../img/motor_bmw.jpg);
     background-size: cover;
-    height: 600px;
+    background-position: center;
+    height: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .especializada::before {
@@ -328,8 +333,34 @@ h2#pq_fazer_tit {
     content: '';
     position: absolute;
     background-color: rgba(0, 0, 0, 0.747);
+    z-index: 1;
 }
 
+.caixa {
+    /*background-color: rgba(255, 255, 255, 0.144);*/
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 15px;
+    padding-top: 20px;
+}
 
+.item_especializada {
+    display: flex;
+    align-items: center;
+}
 
+.itens {
+    color: var(--cor2);
+}
+
+p {
+    color: white;
+}
+
+.flecha {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
 /*    background-attachment: scroll, fixed; rolar e img parada */
