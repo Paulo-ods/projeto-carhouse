@@ -278,43 +278,7 @@ div#teste {
     url('wa_images/background.jpg?v=1eal001')
 }*/
 
-section#pq_fazer {
-    background-image: url(https://bhprimeautomotiva.com.br/wa_images/background.jpg?v=1eal001);
-    background-color: #400601;
-    text-align: center;
-    /*margin-top: 50px;*/
-}
 
-.box_pq_fazer {
-
-    margin: 20px 0px 20px 0px;
-    padding: 10px 0px 10px 0px;
-    background-size: cover;
-    height: 200px;
-    /*background-color: lightgray;*/
-}
-
-p#venha_fazer {
-    font-size: 20px;
-    font-family: 'fonte1';
-    padding: 20px;
-}
-
-h2#pq_fazer_tit {
-    font-size: 35px;
-    font-family: 'fonte2', Arial, Helvetica, sans-serif;
-    color: var(--cor2);
-}
-
-.title_pq_fazer {
-    font-family: 'fonte1', Courier, monospace;
-    color: var(--cor2);
-}
-
-.descricao {
-    font-family: 'fonte1', Courier, monospace;
-    color: var(--cor2);
-}
 
 .especializada {
     background-image: url(../img/motor_bmw.jpg);
@@ -324,7 +288,8 @@ h2#pq_fazer_tit {
     position: relative;
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
+    align-items: center;
 }
 
 .especializada::before {
@@ -337,30 +302,41 @@ h2#pq_fazer_tit {
 }
 
 .caixa {
-    /*background-color: rgba(255, 255, 255, 0.144);*/
+    background-color: rgba(255, 255, 255, 0.144);
     position: relative;
     z-index: 2;
     display: block;
     margin: 15px;
-    padding-top: 20px;
+    padding: 20px;
+    width: 90%;
+    box-shadow: 1px 0px 19px 6px black;
 }
 
 .item_especializada {
     display: flex;
     align-items: center;
-}
-
-.itens {
     color: var(--cor2);
+    padding-right: 10px;
 }
 
 p {
-    color: white;
+    color: rgba(255, 255, 255, 0.699);
 }
 
 .flecha {
     height: 30px;
     width: 30px;
     margin-left: 10px;
+}
+
+.title_espec {
+    font-family: 'fonte1', Courier, monospace;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-family: 'fonte1', Courier, monospace;
 }
 /*    background-attachment: scroll, fixed; rolar e img parada */
