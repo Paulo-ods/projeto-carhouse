@@ -349,7 +349,7 @@ p {
 
 h2#escolher {
     color: var(--cor1);
-    font-size: 29px;
+    font-size: 2.2em;
     font-family: 'fonte1', Courier, monospace;
     padding-top: 30px;
 }
