@@ -312,6 +312,13 @@ div#teste {
     box-shadow: 1px 0px 19px 6px black;
 }
 
+.caixa:hover {
+    transform: translate3d(0px, 5px, -5px);
+    transition: transform 0.4s;
+    background-color: rgba(255, 255, 255, 0.295);
+    box-shadow: 1px 0px 19px 6px rgb(34, 33, 33);
+}
+
 .item_especializada {
     display: flex;
     align-items: center;
@@ -338,5 +345,12 @@ p {
 .paragrafo {
     text-align: justify;
     font-family: 'fonte1', Courier, monospace;
+}
+
+h2#escolher {
+    color: var(--cor1);
+    font-size: 29px;
+    font-family: 'fonte1', Courier, monospace;
+    padding-top: 30px;
 }
 /*    background-attachment: scroll, fixed; rolar e img parada */
