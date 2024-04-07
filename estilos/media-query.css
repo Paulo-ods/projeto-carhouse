@@ -120,6 +120,7 @@
     .title_pq_fazer {
         font-size: 25px;
     }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -281,5 +282,29 @@
         font-size: 1.4em;
     }
 
-    
+    .caixa {
+        width: 47%;
+        height: 139px;
+    }
+
+    .title_espec {
+        font-size: 1.8em;
+    }
+
+    .paragrafo {
+        font-size: 1.2em;
+    }
+
+    .caixas-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 30px 0px 40px 0px;
+    }
+
+    h2#escolher {
+        font-size: 2.6em;
+        padding: 40px 0px 0px 0px;
+    }
 }

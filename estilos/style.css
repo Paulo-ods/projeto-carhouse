@@ -319,6 +319,7 @@ div#teste {
     box-shadow: 1px 0px 19px 6px rgb(34, 33, 33);
 }
 
+
 .item_especializada {
     display: flex;
     align-items: center;
@@ -353,4 +354,12 @@ h2#escolher {
     font-family: 'fonte1', Courier, monospace;
     padding-top: 30px;
 }
+
+
+
+
+
+
+
+
 /*    background-attachment: scroll, fixed; rolar e img parada */
