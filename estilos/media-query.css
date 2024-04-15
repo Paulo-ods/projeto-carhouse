@@ -126,7 +126,11 @@
     }
 
     .caixa {
-        margin: 15px 15px 20px 15px;
+        margin: 20px auto;
+    }
+
+    .best {
+        margin: 10px 10px 0px 10px;
     }
 }
 
