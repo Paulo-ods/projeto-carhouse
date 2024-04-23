@@ -339,6 +339,12 @@
     .best2 {
         font-size: 2.2em;
     }
+
+    article#gradient, article#gradient2 {
+        width: 50vw;
+        padding-bottom: 70px;
+    }
+
 }
 
 @media screen and (min-height: 828px) {

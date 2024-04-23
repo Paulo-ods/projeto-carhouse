@@ -87,6 +87,14 @@
         color: white;
     }
 
+    div#dodge {
+        margin-top: 96%;
+    }
+
+    nav {
+        padding-bottom: 0px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {

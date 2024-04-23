@@ -106,7 +106,7 @@ ul > li > a:hover {
     background-color: darkred;
     transform: translate(-3px, 3px);
     box-shadow: 1px 0px 15px rgb(80 3 3 / 64%);
-    transition: transform 0.4s, border 0.8s rgb(70, 2, 2);
+    transition: transform 0.4s, border 0.8s rgb(70, 2, 2) !important;
 }
 
 main > h1 {
