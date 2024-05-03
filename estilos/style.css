@@ -355,8 +355,31 @@ h2#escolher {
     padding-top: 30px;
 }
 
+hr {
+    border-color: rgba(56, 54, 54, 0.493);
+    width: 90vw;
+    margin: auto;
+}
 
+div#logo_footer {
+    text-align: center;
+    margin: 20px;
+}
 
+div#icones {
+    display: flex;
+    flex-direction: column;
+}
+
+.icones-footer {
+    height: 30px;
+    margin: 10px 15px 10px 15px;
+}
+
+.redes_sociais {
+    display: flex;
+    align-items: center;
+}
 
 
 

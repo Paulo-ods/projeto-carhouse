@@ -132,6 +132,11 @@
     .best {
         margin: 10px 10px 0px 10px;
     }
+
+    article#gradient2 {
+        padding-bottom: 80px;
+    }
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
