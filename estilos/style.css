@@ -387,13 +387,13 @@ div#icones {
 }
 
 .localizacao {
-    margin: 10px 10px 50px 0px;
+    margin: 90px 0px 50px 0px;
 }
 
 iframe {
     display: block;
-    margin: 0 auto;
     border-radius: 10px;
+    width: 80vw;
 }
 
 
