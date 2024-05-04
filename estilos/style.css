@@ -366,19 +366,34 @@ div#logo_footer {
     margin: 20px;
 }
 
+.conteudo-footer {
+    display: flex;
+}
+
 div#icones {
     display: flex;
     flex-direction: column;
 }
 
 .icones-footer {
-    height: 30px;
-    margin: 10px 15px 10px 15px;
+    height: 35px;
+    width: 35px;
+    margin: 10px 15px 15px 15px;
 }
 
 .redes_sociais {
     display: flex;
     align-items: center;
+}
+
+.localizacao {
+    margin: 10px 10px 50px 0px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 
