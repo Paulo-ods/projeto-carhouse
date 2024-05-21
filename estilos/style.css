@@ -366,19 +366,13 @@ div#logo_footer {
     margin: 20px;
 }
 
-.conteudo-footer {
-    display: flex;
-}
-
 div#icones {
     display: flex;
-    flex-direction: column;
 }
 
 .icones-footer {
-    height: 35px;
-    width: 35px;
-    margin: 10px 15px 15px 15px;
+    height: 40px;
+    margin: 5px 15px 15px 32px;
 }
 
 .redes_sociais {
@@ -387,13 +381,13 @@ div#icones {
 }
 
 .localizacao {
-    margin: 90px 0px 50px 0px;
+    margin: 50px 20px 30px 20px;
 }
 
 iframe {
     display: block;
     border-radius: 10px;
-    width: 80vw;
+    width: 100%;
 }
 
 
